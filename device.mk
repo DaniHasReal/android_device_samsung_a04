@@ -19,6 +19,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 $(call inherit-product, device/samsung/mt6768-jdm/mt6768.mk)
 
-# Overlays
-PRODUCT_PACKAGES += \
-    SystemUIOverlay_JDM_G85
+# Kernel Modules
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(DEVICE_PATH)/vendor_overlay/,$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/31/)
