@@ -12,23 +12,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from a05m device
-$(call inherit-product, device/samsung/a05m/device.mk)
+$(call inherit-product, device/samsung/a04/device.mk)
 
 # Inherit from wingcamera-samsung
 $(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
 
 TARGET_EXCLUDES_AUDIOFX := true
 
-PRODUCT_DEVICE := a05m
-PRODUCT_NAME := lineage_a05m
+PRODUCT_DEVICE := a04
+PRODUCT_NAME := lineage_a04
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Galaxy A05
+PRODUCT_MODEL := Galaxy A04
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="a05mxx-user 14 UP1A.231005.007 A055FXXS7CXJ1 release-keys" \
-    BuildFingerprint=samsung/a05mxx/a05m:14/UP1A.231005.007/A055FXXS7CXJ1:user/release-keys
+    BuildDesc="a04xx-user 12 SP1A.210812.016 A045FXXS8EXJ1 release-keys" \
+    BuildFingerprint=samsung/a04xx/a04:12/SP1A.210812.016/A045FXXS8EXJ1:user/release-keys
 
 
