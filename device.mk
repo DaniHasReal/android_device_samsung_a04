@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-$(call inherit-product, device/samsung/mt6768-jdm/mt6768.mk)
+$(call inherit-product, device/samsung/mt6765-jdm/mt6765.mk)
 
 # Kernel Modules
 PRODUCT_COPY_FILES += \
