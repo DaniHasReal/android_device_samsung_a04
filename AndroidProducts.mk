@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orion_a04.mk
+    $(LOCAL_DIR)/superior_a04.mk
 
 COMMON_LUNCH_CHOICES := \
-    orion_a04-user \
-    orion_a04-userdebug \
-    orion_a04-eng
+    superior_a04-user \
+    superior_a04-userdebug \
+    superior_a04-eng
